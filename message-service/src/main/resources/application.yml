@@ -17,3 +17,6 @@ spring:
 jwt:
   secret: user-service-dev-secret-key-must-be-long-enough-256bits
   expiration-ms: 86400000
+
+users:
+  service-url: http://localhost:9000
